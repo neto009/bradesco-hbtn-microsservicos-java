@@ -1,10 +1,7 @@
 package com.example.demo;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
+import java.util.Objects;
 
-@Data
 public class Song {
     private Integer id;
     private String nome;
@@ -19,6 +16,46 @@ public class Song {
         this.nome = nome;
         this.artista = artista;
         this.album = album;
+        this.anoLancamento = anoLancamento;
+    }
+
+        public Integer getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getArtista() {
+        return artista;
+    }
+
+    public String getAlbum() {
+        return album;
+    }
+
+    public String getAnoLancamento() {
+        return anoLancamento;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setArtista(String artista) {
+        this.artista = artista;
+    }
+
+    public void setAlbum(String album) {
+        this.album = album;
+    }
+
+    public void setAnoLancamento(String anoLancamento) {
         this.anoLancamento = anoLancamento;
     }
 
