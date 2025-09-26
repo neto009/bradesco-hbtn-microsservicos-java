@@ -1,0 +1,21 @@
+O que é Spring Boot Framework?
+Spring Boot é uma extensão do ecossistema Spring que permite criar aplicações Java autônomas (stand-alone) prontas para produção com configuração mínima. Ele adota o princípio “convention over configuration” para reduzir o boilerplate, cuida da auto-configuração conforme as dependências no classpath e embute um servidor (Tomcat, Jetty ou Undertow), dispensando deploy externo.
+
+Quais são os benefícios e recursos que Spring Boot fornece?
+Auto-configuração inteligente: detecta o que está no classpath e cria beans automaticamente,
+Starters: agregam dependências comuns (ex: spring-boot-starter-web, spring-boot-starter-data-jpa) para facilitar o gerenciamento e evitar conflitos de versão,
+Servidor embutido: a aplicação é empacotada com servidor HTTP interno, eliminando a necessidade de deploy em servidor externo,
+Funcionalidades para produção: suporte a métricas, health checks, externalização de configuração (via application.properties ou application.yml), perfis, etc,
+Sem XML obrigatório nem geração de código: toda configuração pode ser feita com Java + anotações ou via propriedades/YAML, com flexibilidade para sobrescrever defaults,
+Agilidade e produtividade: com menor tempo de configuração, o desenvolvedor pode focar na lógica de negócio em vez de infraestrutura.
+
+Como é feita a adição de novas dependências (JPA, Hibernate etc.)?
+Em projetos baseados em Maven, basta incluir ao pom.xml o starter correspondente. Por exemplo, para persistência com JPA + Hibernate, adiciona-se spring-boot-starter-data-jpa, que já traz Hibernate, Spring Data, Spring JDBC, etc. 
+O Spring Boot então detecta a dependência e, se houver propriedades de conexão configuradas, cria automaticamente a DataSource, o EntityManagerFactory, transações, entre outros componentes.
+Se for necessário, pode-se também adicionar dependências específicas ou alterar versões no pom.xml ou em dependencyManagement, como em qualquer projeto Maven comum.
+
+Na sua opinião, qual é a melhor IDE para trabalhar com o Spring Boot: STS, IntelliJ IDEA, Eclipse ou NetBeans?
+Minha preferência pessoal recai sobre IntelliJ IDEA, por oferecer uma experiência mais completa, inteligente e integrada ao Spring Boot, com ótimas ferramentas visuais e recursos de produtividade.
+
+O que é Spring Initializr?
+Spring Initializr é uma ferramenta web que permite gerar um esqueleto de projeto Spring Boot configurado (Maven ou Gradle), definindo parâmetros como versão de Java, dependências iniciais, nome do artefato etc. 
