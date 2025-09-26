@@ -63,10 +63,10 @@ public class Song {
     public String toString() {
         return "Song{" +
                 "id=" + id +
-                ", title='" + title + '\'' +
-                ", artist='" + artist + '\'' +
+                ", nome='" + nome + '\'' +
+                ", artista='" + artista + '\'' +
                 ", album='" + album + '\'' +
-                ", year=" + year +
+                ", anoLancamento='" + anoLancamento + '\'' +
                 '}';
     }
 
@@ -76,14 +76,14 @@ public class Song {
         if (obj == null || getClass() != obj.getClass()) return false;
         Song song = (Song) obj;
         return Objects.equals(id, song.id) &&
-                Objects.equals(title, song.title) &&
-                Objects.equals(artist, song.artist) &&
+                Objects.equals(nome, song.nome) &&
+                Objects.equals(artista, song.artista) &&
                 Objects.equals(album, song.album) &&
-                Objects.equals(year, song.year);
+                Objects.equals(anoLancamento, song.anoLancamento);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, title, artist, album, year);
+        return Objects.hash(id, nome, artista, album, anoLancamento);
     }
 }
