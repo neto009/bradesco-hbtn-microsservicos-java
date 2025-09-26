@@ -1,8 +1,12 @@
 package com.example.demo;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 @Data
+@EqualsAndHashCode
+@ToString
 public class Song {
     private Integer id;
     private String nome;
