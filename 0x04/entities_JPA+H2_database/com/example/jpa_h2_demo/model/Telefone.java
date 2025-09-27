@@ -15,6 +15,7 @@ public class Telefone {
 
     @ManyToOne
     @JoinColumn(name = "cliente_id")
+    @JsonBackReference
     private Cliente cliente;
 
     public Long getId() { return id; }

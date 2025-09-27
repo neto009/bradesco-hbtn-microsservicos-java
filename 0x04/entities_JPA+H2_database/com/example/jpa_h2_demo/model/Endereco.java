@@ -19,6 +19,7 @@ public class Endereco {
 
     @ManyToOne
     @JoinColumn(name = "cliente_id")
+    @JsonBackReference
     private Cliente cliente;
 
     // Getters e Setters
