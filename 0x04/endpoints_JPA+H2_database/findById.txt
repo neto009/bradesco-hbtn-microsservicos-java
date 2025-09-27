@@ -1,21 +1,29 @@
-{
-  "id": 1,
-  "nome": "Zé Fulano",
-  "idade": 40,
-  "email": "zezinho@gmail.com",
-  "telefones": [
-    { "id": 1, "ddd": "11", "numero": "954588555" },
-    { "id": 3, "ddd": "13", "numero": "98623565" }
-  ],
-  "enderecos": [
-    {
-      "id": 1,
-      "logradouro": "CENTRO",
-      "endereco": "CIDADE DO NORTE",
-      "numero": "123",
-      "bairro": "AVENIDA 1",
-      "cidade": "CIDADE DO NORTE",
-      "estado": "SP"
-    }
-  ]
-}
+  {
+    "id": 2,
+    "nome": "Manoel Antunes",
+    "idade": 26,
+    "email": "manoel@email.com",
+    "telefones": [
+      {
+        "id": 1,
+        "ddd": "14",
+        "numero": "35445585"
+      },
+      {
+        "id": 2,
+        "ddd": "14",
+        "numero": "99668855"
+      }
+    ],
+    "enderecos": [
+      {
+        "id": 2,
+        "logradouro": "RUA",
+        "endereco": "LÁ LONGE",
+        "numero": "487",
+        "bairro": "JARDIM BONITO",
+        "cidade": "CIDADE DO NORTE",
+        "estado": "SP"
+      }
+    ]
+  }
