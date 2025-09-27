@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "nome": "Zé Fulano",
+    "nome": "Ze Fulano",
     "idade": 40,
     "email": "zezinho@gmail.com",
     "telefones": [
