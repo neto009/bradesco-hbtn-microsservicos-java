@@ -2,6 +2,7 @@ package com.example.jpa_h2_demo.model;
 
 import jakarta.persistence.*;
 import java.util.List;
+import com.example.jpa_h2_demo.model.*;
 
 @Entity
 public class Ciente {
