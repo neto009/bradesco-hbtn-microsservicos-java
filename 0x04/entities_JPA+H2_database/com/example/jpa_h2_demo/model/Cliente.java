@@ -5,7 +5,7 @@ import java.util.List;
 import com.example.jpa_h2_demo.model.*;
 
 @Entity
-public class Ciente {
+public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
