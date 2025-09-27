@@ -3,7 +3,7 @@
     "id": 1,
     "nome": "Ze Fulano",
     "idade": 40,
-    "email": "zezinho@gmail.com",
+    "email": "zezinho@email.com",
     "telefones": [
       { "id": 1, "ddd": "11", "numero": "954588555" },
       { "id": 3, "ddd": "13", "numero": "98623565" }
@@ -24,7 +24,7 @@
     "id": 2,
     "nome": "Manoel Antunes",
     "idade": 22,
-    "email": "manoel@gmail.com",
+    "email": "manoel@email.com",
     "telefones": [
       { "id": 2, "ddd": "21", "numero": "954588555" }
     ],
