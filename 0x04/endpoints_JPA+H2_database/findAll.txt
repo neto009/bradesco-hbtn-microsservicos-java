@@ -5,16 +5,19 @@
     "idade": 40,
     "email": "zezinho@email.com",
     "telefones": [
-      { "id": 1, "ddd": "11", "numero": "954588555" },
-      { "id": 3, "ddd": "13", "numero": "98623565" }
+      {
+        "id": 3,
+        "ddd": "18",
+        "numero": "98253636"
+      }
     ],
     "enderecos": [
       {
         "id": 1,
-        "logradouro": "CENTRO",
-        "endereco": "CIDADE DO NORTE",
-        "numero": "123",
-        "bairro": "AVENIDA 1",
+        "logradouro": "AVENIDA",
+        "endereco": "ALI PERTO",
+        "numero": "100",
+        "bairro": "CENTRO",
         "cidade": "CIDADE DO NORTE",
         "estado": "SP"
       }
@@ -23,19 +26,28 @@
   {
     "id": 2,
     "nome": "Manoel Antunes",
-    "idade": 22,
+    "idade": 26,
     "email": "manoel@email.com",
     "telefones": [
-      { "id": 2, "ddd": "21", "numero": "954588555" }
+      {
+        "id": 1,
+        "ddd": "14",
+        "numero": "35445585"
+      },
+      {
+        "id": 2,
+        "ddd": "14",
+        "numero": "99668855"
+      }
     ],
     "enderecos": [
       {
         "id": 2,
-        "logradouro": "JARDIM BONITO",
-        "endereco": "CID NORTE",
-        "numero": "22",
-        "bairro": "RUA A",
-        "cidade": "CID NORTE",
+        "logradouro": "RUA",
+        "endereco": "LÁ LONGE",
+        "numero": "487",
+        "bairro": "JARDIM BONITO",
+        "cidade": "CIDADE DO NORTE",
         "estado": "SP"
       }
     ]
